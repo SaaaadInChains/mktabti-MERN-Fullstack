@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@font-face {
+  font-family: "InconsolataLGCNerdFont-Regular";
+  src: url("../font/InconsolataLGCNerdFont-Regular.ttf") format("truetype");
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "InconsolataLGCNerdFont-Regular" !important;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  min-width: 320px;
+  background-color: #f7f3ee;
+}

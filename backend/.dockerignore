@@ -1,0 +1,6 @@
+.env
+.git
+node_modules
+src/scripts/.env
+test.ts
+fin_wslna.txt
